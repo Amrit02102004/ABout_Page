@@ -1,35 +1,35 @@
 .about-section {
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .about-content {
-    position: absolute;
-    top: 50%;
-    left: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-content {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  transform: translateX(-100%);
+  animation: slide-in 1s forwards;
+}
+
+@keyframes slide-in {
+  0% {
     transform: translateX(-100%);
-    animation: slide-in 1s forwards;
   }
-  
-  @keyframes slide-in {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
+  100% {
+    transform: translateX(0);
   }
-  
-  .slide-out {
-    animation: slide-out 1s forwards;
+}
+
+.slide-out {
+  animation: slide-out 2s forwards;
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translateX(0);
   }
-  
-  @keyframes slide-out {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+  100% {
+    transform: translateX(-100%);
   }
+}
