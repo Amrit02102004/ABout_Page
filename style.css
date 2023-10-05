@@ -12,7 +12,7 @@ body{
 
 .about-section {
   height: 100vh;
-  overflow: hidden;
+  overflow: inherit;
   position: relative;
 }
 .heading{
