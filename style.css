@@ -1,7 +1,22 @@
+body{
+  background-color: #183D3D;
+}
+.desc{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 75px;
+}
+.AB{
+  width: 50%;
+  font-size: 38px;
+}
+
 .about-section {
   height: 100vh;
   overflow: hidden;
   position: relative;
+}
+.heading{
+  font-family: 'Roboto Slab', serif;
 }
 
 .about-content {
