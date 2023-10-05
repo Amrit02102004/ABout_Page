@@ -3,7 +3,7 @@ body{
 }
 .desc{
   font-family: 'Quicksand', sans-serif;
-  font-size: 75px;
+  font-size: 37px;
 }
 .AB{
   width: 50%;
@@ -19,7 +19,7 @@ body{
   font-family: 'Roboto Slab', serif;
 }
 
-.about-content {
+.about-content1 , .about-content2 , .about-content3 {
   position: absolute;
   top: 25%;
   left: 0;
