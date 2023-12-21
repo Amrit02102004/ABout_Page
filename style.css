@@ -1,30 +1,46 @@
-body{
-  background-color: #183D3D;
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
 }
-.desc{
+.h2{
+  font-size: 50px;
+}
+.desc {
   font-family: 'Quicksand', sans-serif;
-  font-size: 37px;
-}
-.AB{
-  width: 50%;
-  font-size: 38px;
+  font-size: 16px;
 }
 
-.about-section {
-  height: 100vh;
-  overflow: inherit;
-  position: relative;
-}
-.heading{
+
+.heading {
   font-family: 'Roboto Slab', serif;
 }
 
-.about-content1 , .about-content2 , .about-content3 {
-  position: absolute;
+.about-content {
+  display: flex;
+}
+
+.about-content1,
+.about-content3,
+.about-content2 {
+  display: block;
+  width: 50%;
+  color: white;
   top: 25%;
   left: 0;
   transform: translateX(-100%);
   animation: slide-in 1s forwards;
+}
+
+.about-content2 {
+  left: 50%;
+}
+
+.right {
+  position : absolute;
+  left: 51%;
 }
 
 @keyframes slide-in {
