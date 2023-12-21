@@ -1,3 +1,8 @@
+.home{
+
+}
+
+
 body {
   background-color: #000000;
   color: #ffffff;
@@ -26,12 +31,11 @@ body {
 .about-content3{
   display: block;
   position: relative;
-  top : 40px;
+  top : 90px;
   width: 42%;
   color: white;
   left: 25px;
-  transform: translateX(-100%);
-  animation: slide-in 2s forwards;
+  transform: translateX(-111%);
 }
 
 .card{
@@ -42,22 +46,26 @@ body {
 
 .about-content2 {
   display: block;
+  position: relative;
   width: 43%;
   color: white;
   top: 25%;
   left: 0;
   left: 50%;
-  animation: content2-slide-in 2s forwards;
+  transform: translateX(111%);
 }
 
 .about-content3{
   position: relative;
-  top : 150px;
+  top : -80px;
 }
 
-.right {
-  position : absolute;
-  left: 50%;
+.in-anim{
+  animation: slide-in 2s forwards;
+}
+
+.in-animr{
+  animation: content2-slide-in 2s forwards;
 }
 
 @keyframes slide-in {
