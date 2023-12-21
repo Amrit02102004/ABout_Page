@@ -23,8 +23,7 @@ body {
 }
 
 .about-content1,
-.about-content3,
-.about-content2 {
+.about-content3{
   display: block;
   width: 50%;
   color: white;
@@ -35,7 +34,13 @@ body {
 }
 
 .about-content2 {
+  display: block;
+  width: 50%;
+  color: white;
+  top: 25%;
+  left: 0;
   left: 50%;
+  animation: content2-slide-in 2s forwards;
 }
 
 .about-content3{
@@ -68,4 +73,24 @@ body {
   100% {
     transform: translateX(-100%);
   }
+}
+
+@keyframes content2-slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  
+}
+
+@keyframes content2-slide-out {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+  
 }
