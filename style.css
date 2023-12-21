@@ -18,8 +18,8 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
-.about-content {
-  display: flex;
+.about-section {
+  display: inline-block;
 }
 
 .about-content1,
@@ -31,11 +31,16 @@ body {
   top: 25%;
   left: 0;
   transform: translateX(-100%);
-  animation: slide-in 1s forwards;
+  animation: slide-in 2s forwards;
 }
 
 .about-content2 {
   left: 50%;
+}
+
+.about-content3{
+  position: relative;
+  top : 150px;
 }
 
 .right {
